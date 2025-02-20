@@ -101,7 +101,7 @@ var allTransport: [UpgradableMovable] = [car1, car2, car3, car4, car5, bike1, bi
 
 //8. რენდომად 4 ელემენტს განუახლეთ სისწრაფე upgrade(speed by: Double), რენდომ ერთეულით 0...100 ის შუალედში
 
-for _ in 1...4 {
+for _ in 1...3 {
     let randomIndex = Int.random(in: 0..<allTransport.count)
     let randomUpgradeValue = Double.random(in: 0...100)
     
