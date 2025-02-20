@@ -110,7 +110,7 @@ for _ in 1...3 {
 //9. დაასორტირეთ maxSpeedInMiles ის ზრდადობის მიხედვით
 
 
-let sortedTransport = allTransport.sorted { $0.maxSpeedInMiles < $1.maxSpeedInMiles }
+let sortedTransport = allTransport.sorted { $0.maxSpeedInMiles > $1.maxSpeedInMiles }
 
 // 10. ეს ამ დასორტირებულ მასივზე გამოიძახეთ foreach ფუნქცია და დაბეჭდეთ თითოეული ელემენტისთვის. მაგ
 
